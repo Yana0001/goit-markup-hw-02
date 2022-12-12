@@ -1,0 +1,53 @@
+body{
+    background-color: #fff;
+    color: #757575;
+}
+.span-web{
+    color: #2196F3;
+}
+
+.span-studio{
+    color: #000;
+}
+
+/* site-nav */
+.site-nav .link{
+    color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: #2196F3;
+}
+
+.auth-nav a{
+    color: #757575;
+}
+
+.auth-nav a:hover,
+.auth-nav a:focus{
+    color: #2196F3;
+}
+
+.hero{
+    background-color: #2F303A;
+}
+.hero-title{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* колір основного тексту #212121 */
+/* другорядний колір тексту #757575 */
+/* білий #FFFFFF */
+/* акцент #2196F3 */
+/* футер контакти rgba(255, 255, 255, 0.6) */
+/* другорядний колір фона  #F5F4FA */
