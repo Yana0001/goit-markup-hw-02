@@ -31,7 +31,13 @@ body{
 .hero{
     background-color: #2F303A;
 }
+
 .hero-title{
+    color: #fff;
+}
+
+.hero-button{
+    background-color: #2196F3;
     color: #fff;
 }
 
