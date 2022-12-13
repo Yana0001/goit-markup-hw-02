@@ -41,8 +41,33 @@ body{
     color: #fff;
 }
 
-.
+.features{
+    background-color: #fff;
+}
 
+.title{
+    color: #212121;
+}
+
+.section-title{
+    color: #212121;
+}
+
+.team{
+    background-color: #F5F4FA;
+}
+
+.team-title{
+    color: #212121;
+}
+
+.team-subtitle{
+    color: #212121;
+}
+
+.text{
+    color: #757575;
+}
 
 
 
