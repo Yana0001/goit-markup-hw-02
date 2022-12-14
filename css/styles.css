@@ -17,6 +17,7 @@ body{
 
 .logo{
     font-family: Raleway;
+    font-size: 26px;
 }
 
 .span-web{
@@ -27,14 +28,18 @@ body{
     color:var(--black);
 }
 
-/* site-nav */
-/* .site-nav .link{
-    color: var(--main-text-color);
-} */
+
+.site-nav{
+    font-size: 14px;
+}
 
 .site-nav .link:hover,
 .site-nav .link:focus{
     color:var(--accent);
+}
+
+.auth-nav{
+    font-size: 14px;
 }
 
 .auth-nav a{
@@ -52,39 +57,46 @@ body{
 
 .hero-title{
     color:var(--white-color);
+    font-size: 44px;
 }
 
 .hero-button{
     background-color:var(--accent);
     color:var(--white-color);
+    font-size: 16px;
 }
 
 .features{
     background-color:var(--white-color);
 }
 
-/* .title{
-    color: var(--main-text-color);
-} */
+.title{
+    font-size: 14px;
+}
 
-/* .section-title{
-    color:var(--main-text-color);
-} */
+.text{
+    font-size: 14px;
+}
+
+.section-title{
+    font-size: 36px;
+}
 
 .team{
     background-color:var(--secondary-background-color);
 }
 
-/* .team-title{
-    color:var(--main-text-color);
+.team-title{
+    font-size: 36px;
 }
 
 .team-subtitle{
-    color:var(--main-text-color);
-} */
+    font-size: 16px;
+}
 
-.text{
+.team-text{
     color:var(--secondary-text-color);
+    font-size: 16px;
 }
 
 footer{
@@ -97,9 +109,11 @@ footer{
 
 .map{
     color:var(--white-color);
+    font-size: 14px;
 }
 .contact{
     color:var(--grey);
+    font-size: 14px;
 }
 
 footer a:hover,
@@ -109,6 +123,7 @@ footer a:focus{
 
 div{
     font-family: Raleway;
+    font-size: 26px;
 }
 
 /* Portfolio */
