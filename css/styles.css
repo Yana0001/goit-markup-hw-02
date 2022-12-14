@@ -93,3 +93,26 @@ footer{
 }
 
 /* Portfolio */
+
+h1{
+    display: none;
+}
+
+.button.list{
+    background-color: #F5F4FA;
+    color: #212121;
+}
+
+.button.list:hover,
+.button.list:focus{
+background-color: #2196F3;
+color: #fff;
+}
+
+.content-features h2{
+    color: #212121;
+}
+
+.content-features p{
+    color: #212121;
+}
