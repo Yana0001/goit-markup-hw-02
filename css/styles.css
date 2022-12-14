@@ -1,95 +1,104 @@
-/* колір основного тексту #212121 */
-/* другорядний колір тексту #757575 */
-/* білий #FFFFFF */
-/* акцент #2196F3 */
-/* футер контакти rgba(255, 255, 255, 0.6) */
-/* другорядний колір фона  #F5F4FA */
+:root{
+    --main-text-color:#212121;
+    --secondary-text-color:#757575;
+    --white-color:#ffffff;
+    --accent:#2196F3;
+    --grey:rgba(255,255,255,0.6);
+    --secondary-background-color:#F5F4FA;
+    --black:#00000;
+    --dark-grey-color:#2F303A;
+}
 
 body{
-    background-color: #fff;
-    color: #757575;
+    background-color:var(--white-color);
+    color:var(--main-text-color);
+    font-family: 'Raleway', sans-serif, 'Roboto', sans-serif;
 }
 .span-web{
-    color: #2196F3;
+    color:var(--accent);
 }
 
 .span-studio{
-    color: #000;
+    color:var(--black);
 }
 
 /* site-nav */
 .site-nav .link{
-    color: #212121;
+    color: var(--main-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
-    color: #2196F3;
+    color:var(--accent);
 }
 
 .auth-nav a{
-    color: #757575;
+    color:var(--secondary-text-color);
 }
 
 .auth-nav a:hover,
 .auth-nav a:focus{
-    color: #2196F3;
+    color:var(--accent);
 }
 
 .hero{
-    background-color: #2F303A;
+    background-color:var(--dark-grey-color);
 }
 
 .hero-title{
-    color: #fff;
+    color:var(--white-color);
 }
 
 .hero-button{
-    background-color: #2196F3;
-    color: #fff;
+    background-color:var(--accent);
+    color:var(--white-color);
 }
 
 .features{
-    background-color: #fff;
+    background-color:var(--white-color);
 }
 
 .title{
-    color: #212121;
+    color: var(--main-text-color);
 }
 
 .section-title{
-    color: #212121;
+    color:var(--main-text-color);
 }
 
 .team{
-    background-color: #F5F4FA;
+    background-color:var(--secondary-background-color);
 }
 
 .team-title{
-    color: #212121;
+    color:var(--main-text-color);
 }
 
 .team-subtitle{
-    color: #212121;
+    color:var(--main-text-color);
 }
 
 .text{
-    color: #757575;
+    color:var(--secondary-text-color);
 }
 
 footer{
-    background-color: #2F303A;
+    background-color:var(--dark-grey-color);
 }
 
 .white-studio{
-    color: #fff;
+    color:var(--white-color);
 }
 
 .map{
-    color: #fff;
+    color:var(--white-color);
+}
+.contact{
+    color:var(--grey);
 }
 
-.contact{
-    color: rgba(255, 255, 255, 0.6);
+footer a:hover,
+footer a:focus{
+    color:var(--accent);
 }
 
 /* Portfolio */
@@ -99,20 +108,20 @@ h1{
 }
 
 .button.list{
-    background-color: #F5F4FA;
-    color: #212121;
+    background-color:var(--secondary-background-color);
+    color:var(--main-text-color);
 }
 
 .button.list:hover,
 .button.list:focus{
-background-color: #2196F3;
-color: #fff;
+background-color:var(--accent);
+color:var(--white-color);
 }
 
 .content-features h2{
-    color: #212121;
+    color:var(--main-text-color);
 }
 
 .content-features p{
-    color: #212121;
+    color:var(--main-text-color);
 }
