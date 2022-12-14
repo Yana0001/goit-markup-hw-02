@@ -5,15 +5,20 @@
     --accent:#2196F3;
     --grey:rgba(255,255,255,0.6);
     --secondary-background-color:#F5F4FA;
-    --black:#00000;
+    --black:#000;
     --dark-grey-color:#2F303A;
 }
 
 body{
     background-color:var(--white-color);
     color:var(--main-text-color);
-    font-family: 'Raleway', sans-serif, 'Roboto', sans-serif;
+    font-family:'Roboto', sans-serif, 'Raleway', sans-serif;
 }
+
+.logo{
+    font-family: Raleway;
+}
+
 .span-web{
     color:var(--accent);
 }
@@ -22,10 +27,6 @@ body{
     color:var(--black);
 }
 
-/* site-nav */
-.site-nav .link{
-    color: var(--main-text-color);
-}
 .site-nav .link:hover,
 .site-nav .link:focus{
     color:var(--accent);
@@ -57,24 +58,8 @@ body{
     background-color:var(--white-color);
 }
 
-.title{
-    color: var(--main-text-color);
-}
-
-.section-title{
-    color:var(--main-text-color);
-}
-
 .team{
     background-color:var(--secondary-background-color);
-}
-
-.team-title{
-    color:var(--main-text-color);
-}
-
-.team-subtitle{
-    color:var(--main-text-color);
 }
 
 .text{
@@ -101,6 +86,10 @@ footer a:focus{
     color:var(--accent);
 }
 
+div{
+    font-family: Raleway;
+}
+
 /* Portfolio */
 
 h1{
@@ -109,7 +98,6 @@ h1{
 
 .button.list{
     background-color:var(--secondary-background-color);
-    color:var(--main-text-color);
 }
 
 .button.list:hover,
@@ -118,10 +106,3 @@ background-color:var(--accent);
 color:var(--white-color);
 }
 
-.content-features h2{
-    color:var(--main-text-color);
-}
-
-.content-features p{
-    color:var(--main-text-color);
-}
