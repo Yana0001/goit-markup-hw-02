@@ -20,6 +20,8 @@ body{
     font-size: 26px;
     line-height: 1.2;
     font-weight: 700;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .span-web{
@@ -35,6 +37,7 @@ body{
     font-size: 14px;
     line-height: 1.1;
     font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -42,14 +45,20 @@ body{
     color:var(--accent);
 }
 
+.site-nav a{
+    text-decoration: none;
+}
+
 .auth-nav{
     font-size: 14px;
     line-height: 1.1;
     font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 .auth-nav a{
     color:var(--secondary-text-color);
+    text-decoration: none;
 }
 
 .auth-nav a:hover,
@@ -66,6 +75,8 @@ body{
     font-size: 44px;
     line-height: 1.4;
     font-weight: 900;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .hero-button{
@@ -75,6 +86,7 @@ body{
     line-height: 1.9;
     font-weight: 700;
     cursor: pointer;
+    letter-spacing: 0.06em;
 
 }
 
@@ -86,17 +98,25 @@ body{
     font-size: 14px;
     line-height: 1.1;
     font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .text{
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
 .section-title{
     font-size: 36px;
     line-height: 1.2;
     font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.section-title img{
+    width: width: 370px;;
 }
 
 .team{
@@ -107,22 +127,33 @@ body{
     font-size: 36px;
     line-height: 1.2;
     font-weight: 700;
+    letter-spacing: 0.03em;
 }
 
 .team-subtitle{
     font-size: 16px;
     line-height: 1.2;
     font-weight: 500;
+    letter-spacing: 0.03em;
 }
 
 .team-text{
     color:var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.team img{
+    width: 270px;
 }
 
 footer{
     background-color:var(--dark-grey-color);
+}
+
+footer a{
+    text-decoration: none;
 }
 
 div{
@@ -130,6 +161,8 @@ div{
     font-size: 26px;
     line-height: 1.2;
     font-weight: 700;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .white-studio{
@@ -140,11 +173,13 @@ div{
     color:var(--white-color);
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 .contact{
     color:var(--grey);
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
 footer a:hover,
@@ -156,7 +191,7 @@ footer a:focus{
 
 /* Portfolio */
 
-h1{
+.projects-headline{
     display: none;
 }
 
@@ -166,6 +201,7 @@ h1{
     line-height: 1.6;
     font-weight: 500;
     cursor: pointer;
+    letter-spacing: 0.03em;
 }
 
 .button.list:hover,
@@ -178,10 +214,20 @@ color:var(--white-color);
     font-size: 18px;
     line-height: 2;
     font-weight: 700;
+    letter-spacing: 0.06em;
 }
 
 .content-features p{
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.9;
+    letter-spacing: 0.03em;
+}
+
+.content-features img{
+    width: 370px;
+}
+
+ul{
+    list-style: none;
 }
