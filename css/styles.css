@@ -27,6 +27,11 @@ body{
     color:var(--black);
 }
 
+/* site-nav */
+/* .site-nav .link{
+    color: var(--main-text-color);
+} */
+
 .site-nav .link:hover,
 .site-nav .link:focus{
     color:var(--accent);
@@ -58,9 +63,25 @@ body{
     background-color:var(--white-color);
 }
 
+/* .title{
+    color: var(--main-text-color);
+} */
+
+/* .section-title{
+    color:var(--main-text-color);
+} */
+
 .team{
     background-color:var(--secondary-background-color);
 }
+
+/* .team-title{
+    color:var(--main-text-color);
+}
+
+.team-subtitle{
+    color:var(--main-text-color);
+} */
 
 .text{
     color:var(--secondary-text-color);
@@ -98,6 +119,7 @@ h1{
 
 .button.list{
     background-color:var(--secondary-background-color);
+    /* color:var(--main-text-color); */
 }
 
 .button.list:hover,
@@ -106,3 +128,10 @@ background-color:var(--accent);
 color:var(--white-color);
 }
 
+/* .content-features h2{
+    color:var(--main-text-color);
+}
+
+.content-features p{
+    color:var(--main-text-color);
+} */
