@@ -209,6 +209,10 @@ address a {
     font-style: normal;
 }
 
+.footer-logo{
+    font-size: 26px;
+}
+
 .contact a{
     color: var(--secondary-white);
 }
