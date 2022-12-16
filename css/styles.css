@@ -135,15 +135,15 @@ body{
     line-height: 1.2;
 }
 
-footer{
+.footer{
     background-color:var(--dark-grey-color);
 }
 
-footer a{
+.footer a{
     text-decoration: none;
 }
 
-div{
+.footer-logo{
     font-family: Raleway;
     font-size: 26px;
     line-height: 1.2;
@@ -166,12 +166,22 @@ div{
     line-height: 1.7;
 }
 
-footer a:hover,
-footer a:focus{
+.footer a:hover,
+.footer a:focus{
     color:var(--accent);
 }
 
+.footer-address a {
+    font-style: normal;
+}
 
+.footer-logo{
+    font-size: 26px;
+}
+
+.contact a{
+    color: var(--secondary-white);
+}
 
 /* Portfolio */
 
@@ -203,18 +213,6 @@ color:var(--white-color);
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.9;
-}
-
-address a {
-    font-style: normal;
-}
-
-.footer-logo{
-    font-size: 26px;
-}
-
-.contact a{
-    color: var(--secondary-white);
 }
 
 ul{
