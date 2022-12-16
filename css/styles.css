@@ -7,7 +7,6 @@
     --secondary-background-color:#F5F4FA;
     --black:#000;
     --dark-grey-color:#2F303A;
-    --secondary-white: rgba(255,255,255,0.6);
 }
 
 body{
@@ -184,7 +183,7 @@ body{
 }
 
 .contact a{
-    color: var(--secondary-white);
+    color: var(--grey);
 }
 
 /* Portfolio */
