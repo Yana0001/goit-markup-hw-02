@@ -44,6 +44,10 @@ body{
     color:var(--accent);
 }
 
+.site-nav .link.current{
+    color: var(--accent);
+}
+
 .site-nav a{
     text-decoration: none;
     color: var(--main-text-color);
